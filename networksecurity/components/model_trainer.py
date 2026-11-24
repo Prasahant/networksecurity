@@ -99,9 +99,7 @@ class ModelTrainer:
           mlflow.sklearn.log_model(
               sk_model=model,
               name="model",
-              skops_trusted_types=[
-                  "sklearn.tree._tree.Tree"
-              ]
+              serialization_format="cloudpickle"
           )
 
           # Upload the local model file to DagsHub
