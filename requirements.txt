@@ -8,5 +8,9 @@ pymongo
 scikit-learn
 mlflow
 pyyaml
+dagshub
+fastapi
+uvicorn
+joblib
 
 # -e.

@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import certifi
 #password Admin123
-uri =  "mongodb://prashantbabu980123_db_user:Admin123@ac-2py325z-shard-00-00.ry4iivk.mongodb.net:27017,ac-2py325z-shard-00-01.ry4iivk.mongodb.net:27017,ac-2py325z-shard-00-02.ry4iivk.mongodb.net:27017/?ssl=true&replicaSet=atlas-ct8w1h-shard-0&authSource=admin&appName=Cluster0"
+uri =  "mongodb://prashantbabu980123_db_user:Admin123@ac-2py325z-shard-00-00.ry4iivk.mongodb.net:27017,ac-2py325z-shard-00-01.ry4iivk.mongodb.net:27017,ac-2py325z-shard-00-02.ry4iivk.mongodb.net:27017/?ssl=true&replicaSet=atlas-ct8w1h-shard-0&authSource=admin"
 
 print("Testing MongoDB connection...")
 
